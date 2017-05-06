@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Portfolio app</string>
+
+    <string name="leeg">tekst</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_beroepsprofiel">Beroepsprofiel</string>
+
+
+    <string name="title_activity_cijferlijst">Cijferlijst</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="title_activity_curriculumvitae">Curriculum vitae</string>
+    <string name="title_activity_competentie">Competentie</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+</resources>

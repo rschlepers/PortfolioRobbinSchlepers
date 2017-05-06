@@ -1,0 +1,29 @@
+Wero A: Introductie en orientate
+	Voldaan
+
+Presenteren en begeleiden A
+	7,5
+
+Linux en Embedded Systems
+	8,0
+
+Krachtige leeromgeving A: TPACK
+	7,0
+
+Webprogrammeren
+	6,1
+
+Evaluatie en toetsing A
+	8,5
+
+Server infrastructuur
+	7,4
+
+Object georienteerd programmeren
+	8,3
+
+Wero A: Schoolstage
+	7,0
+
+Wero A: Portfolio
+	Voldaan

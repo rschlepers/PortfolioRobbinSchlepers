@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welkomspagina"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.portfoliorobbinschlepers.portfoliorobbinschlepers.Welkomspagina">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/welkom"
+        android:id="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitStart"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:weightSum="1"
+        android:orientation="vertical"
+        >
+
+         <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="4dp"
+            android:text="Introductie"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_introductie"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+             android:onClick="OnIntroductie"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:text="Voorwoord"
+            android:onClick="OnVoorwoord"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_voorwoord"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:onClick="OnPersoonlijk"
+            android:text="Persoonlijk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_persoonlijk"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="18sp" />
+
+        <Button
+        android:layout_marginBottom="4dp"
+        android:text="Opleiding"
+        android:onClick="OnOpleiding"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/btn_opleiding"
+        android:background="@drawable/button"
+        android:textColor="@android:color/background_light"
+        android:layout_weight="0.08"
+        android:textSize="18sp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:text="Reageer!"
+            android:onClick="OnReacties"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_reacties"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Naam"
+            android:text="Tekst"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Opleiding"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Locatie"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:text="Tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Jaar"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

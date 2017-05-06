@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Opleiding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Opleiding"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/leeg"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:text="Interpersoonlijk"
+            android:onClick="OnC1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_c1"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:onClick="OnC2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_c2"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="14sp"
+            android:text="Pedagogisch" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:text="Vakinhoudelijk en didactisch"
+            android:onClick="OnC3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_c3"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:text="Organisatorisch"
+            android:onClick="OnC4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_c4"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:text="Samenwerken met collega’s"
+            android:onClick="OnC5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_c5"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:text="Samenwerken met de omgeving"
+            android:onClick="OnC6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_c6"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_marginBottom="4dp"
+            android:text="Reflectie en ontwikkeling"
+            android:onClick="OnC7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_c7"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.08"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</ScrollView>
